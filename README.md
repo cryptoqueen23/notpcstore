@@ -1,21 +1,47 @@
-# MARI / OBJECTS — Design DNA Commerce
+# NOT PC Store V3
 
-This version was rebuilt directly from the Design DNA profiles in:
-`github.com/cryptoqueen23/designeddna/tree/main/profiles`
+Fresh animated storefront prototype.
 
-See `DESIGN-DNA.md` for the exact profile blend.
+## Why this version is different
+
+This is not the earlier black-and-cream concept. It is built around:
+- animated full-screen hero
+- kinetic oversized typography
+- floating product composition
+- mouse parallax on desktop
+- scroll-reactive hero type
+- moving announcement / collection marquees
+- sticky scroll storytelling
+- asymmetric editorial product blocks
+- product hover / quick view
+- animated bag feedback
+- bento trust section
+- mobile-specific layout
+- reduced-motion accessibility fallback
+
+The design uses the user's Design DNA as UX grammar, while the visual composition is intentionally more expressive and current.
 
 ## Files
+
 - `index.html`
 - `styles.css`
 - `catalog.js`
 - `app.js`
-- `DESIGN-DNA.md`
 
-## Product architecture
-Edit only `catalog.js` to change products.
+## Catalog architecture
 
-## Fulfillment
-The UI is provider-agnostic. Connect Printify, Printful, Shopify, Stripe or another backend later.
+Products live only in `catalog.js`.
 
-For a lean Printify launch, change each product's `direct` link to its live product destination and wire the final checkout button when you choose the checkout flow.
+`app.js` renders them generically.
+
+## Before launch
+
+Replace demo products with real Printify products and connect:
+- product assets
+- real variants/sizes
+- Printify fulfillment
+- Stripe/Printify checkout
+- shipping policy
+- returns policy
+- newsletter provider
+- real social links

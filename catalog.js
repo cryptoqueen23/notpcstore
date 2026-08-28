@@ -1,10 +1,10 @@
-window.PRODUCTS=[
-{id:"loud",name:"Say It Loud Tee",sub:"Heavyweight unisex",price:29.99,category:"tees",badge:"BEST SELLER",type:"shirt",bg:"#c1fbd4",fg:"#000",art:"SAY IT<br>LOUD.",direct:"#"},
-{id:"free",name:"Free Minds Tee",sub:"Soft cotton",price:29.99,category:"tees",badge:"CORE",type:"shirt",bg:"#211922",fg:"#fff",art:"FREE<br>MINDS",direct:"#"},
-{id:"committee",name:"No Committee Hoodie",sub:"Midweight fleece",price:54.99,category:"hoodies",badge:"DROP 001",type:"shirt",bg:"#d4f9e0",fg:"#000",art:"NO<br>COMMITTEE",direct:"#"},
-{id:"cap",name:"Independent Cap",sub:"Washed cotton",price:27.99,category:"hats",badge:"NEW",type:"cap",bg:"#e5e5e0",fg:"#211922",art:"M/O",direct:"#"},
-{id:"point",name:"Point Made Tee",sub:"Premium jersey",price:34.99,category:"tees",badge:"LIMITED",type:"shirt",bg:"#ffddc8",fg:"#211922",art:"POINT.<br>MADE.",direct:"#"},
-{id:"mug",name:"Coffee + Opinions",sub:"11 oz ceramic",price:19.99,category:"extras",badge:"OBJECT",type:"mug",bg:"#fbfbf5",fg:"#211922",art:"COFFEE<br>+ OPINIONS",direct:"#"},
-{id:"unbothered",name:"Still Unbothered Hoodie",sub:"Heavy fleece",price:59.99,category:"hoodies",badge:"PREMIUM",type:"shirt",bg:"#b9b9f9",fg:"#0d253d",art:"STILL<br>UNBOTHERED",direct:"#"},
-{id:"sticker",name:"House Sticker Set",sub:"5-piece vinyl",price:12.99,category:"extras",badge:"ADD-ON",type:"mug",bg:"#f5e9d4",fg:"#0d253d",art:"M/O",direct:"#"}
+window.PRODUCTS = [
+  {id:"no-committee",name:"No Committee Tee",desc:"Heavyweight cotton. Loud by design.",price:29.99,category:"tees",badge:"BEST SELLER",bg:"#ff4fa3",fg:"#ffffff",art:"NO<br>COMMITTEE<br>REQUIRED.",type:"shirt"},
+  {id:"say-it",name:"Say It Loud Tee",desc:"Soft jersey. Zero whispering.",price:29.99,category:"tees",badge:"NEW",bg:"#f2ff3d",fg:"#000000",art:"SAY<br>IT<br>LOUD.",type:"shirt"},
+  {id:"free-minds",name:"Free Minds Tee",desc:"Premium jersey.",price:34.99,category:"tees",badge:"LIMITED",bg:"#244cff",fg:"#ffffff",art:"FREE<br>MINDS.",type:"shirt"},
+  {id:"unbothered",name:"Still Unbothered Hoodie",desc:"Midweight fleece.",price:59.99,category:"hoodies",badge:"PREMIUM",bg:"#7a5cff",fg:"#ffffff",art:"STILL<br>UNBOTHERED.",type:"shirt"},
+  {id:"independent",name:"Independent Cap",desc:"Washed cotton.",price:27.99,category:"hats",badge:"CORE",bg:"#f6f1e7",fg:"#000000",art:"NOT<br>PC",type:"cap"},
+  {id:"coffee",name:"Coffee + Opinions Mug",desc:"11 oz ceramic.",price:19.99,category:"objects",badge:"OBJECT",bg:"#244cff",fg:"#000000",art:"COFFEE<br>+ OPINIONS",type:"mug"},
+  {id:"point",name:"Point Made Tee",desc:"Heavy jersey.",price:34.99,category:"tees",badge:"LOUD PICK",bg:"#ffb38a",fg:"#000000",art:"POINT.<br>MADE.",type:"shirt"},
+  {id:"sticker",name:"Not PC Sticker Pack",desc:"Five vinyl stickers.",price:12.99,category:"objects",badge:"ADD-ON",bg:"#0a0a0a",fg:"#f2ff3d",art:"NOT<br>PC",type:"sticker"}
 ];
